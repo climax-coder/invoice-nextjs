@@ -1,0 +1,77 @@
+.topbar {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  margin-top: 2rem;
+  height: 4rem;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  width: 50vw;
+}
+.title {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 36px;
+  color: #0c0e16;
+  letter-spacing: -1px;
+}
+.subtitle {
+  color: #888eb0;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+}
+.topbtns {
+  display: flex;
+}
+.filter {
+  margin-right: 1.5rem;
+}
+.select {
+  width: 130px;
+  overflow: hidden;
+  position: relative;
+}
+.select:after {
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #373b53;
+  position: absolute;
+  top: 40%;
+  right: 5px;
+  content: '';
+  z-index: 98;
+}
+.select select {
+  width: 220px;
+  border: 0;
+  position: relative;
+  z-index: 99;
+  background: none;
+  color: #0c0e16;
+  font-weight: bold;
+  border: none;
+  outline: none;
+}
+.select select option {
+  font-weight: bold;
+}
+.addbtn {
+  background-color: #7c5dfa;
+  color: #fff;
+  height: 2.5rem;
+  padding: 8px;
+  border-radius: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+}
+.addbtn span {
+  margin-left: 6px;
+}

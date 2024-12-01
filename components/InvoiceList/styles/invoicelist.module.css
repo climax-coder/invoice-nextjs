@@ -1,0 +1,55 @@
+.invoicelistcontainer {
+  height: 80vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.invoicelist {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  overflow-y: auto;
+}
+.invoicedata {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0 10px 10px -10px rgb(72 84 159 / 10%);
+  justify-content: space-between;
+  padding: 30px;
+  cursor: pointer;
+  margin-bottom: 18px;
+}
+.invoicedata:hover {
+  border: 1px solid #7c5dfa;
+}
+.invoiceno {
+  font-weight: bold;
+  color: #000;
+}
+.invoicedatauser {
+  display: flex;
+  margin-right: 6rem;
+}
+.invoicedatauser div {
+  margin-right: 2rem;
+}
+.price {
+  margin-right: 2rem;
+  font-weight: bold;
+}
+.sign,
+.todane {
+  font-weight: 300;
+  color: #888eb0;
+}
+.status {
+  color: #ff8f00;
+  background-color: #ff8f000f;
+  padding: 8px;
+  border-radius: 5px;
+}
+.caret {
+  color: #7c5dfa;
+  margin-left: 0.5rem;
+}
